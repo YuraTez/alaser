@@ -1,0 +1,240 @@
+@media (max-width: 1530px) {
+    html {
+        font-size: 8px;
+    }
+
+    .technology-slider-wrapper {
+        max-width: 108.4rem;
+    }
+
+    .technology-slider-item img {
+        margin-left: 4.5rem;
+    }
+
+    .slider-description {
+        margin: 10rem 0 0 57rem;
+    }
+
+    .logo {
+        height: 2.5rem;
+    }
+
+    .content-btn-img:before {
+        top: 1rem;
+        left: 2rem;
+        width: 3.8rem;
+        height: 5.8rem;
+    }
+
+    .content-wrapper {
+        top: 25%;
+        left: 26rem;
+    }
+
+    .content-title {
+        width: 82rem;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    html {
+        font-size: 7px;
+    }
+
+    .logo {
+        width: 18rem;
+    }
+    .content-btn,
+    .btn-feedback{
+        transform: scale(1);
+    }
+    .content-btn:hover,
+    .btn-feedback:hover{
+        transform: scale(1);
+    }
+
+    .content-intro-video {
+        display: none;
+    }
+
+    .content-nav {
+        display: none;
+    }
+
+    .header-btn-feedback {
+        display: none;
+    }
+
+    .header-nav {
+        position: fixed;
+        top: 0;
+        width: 50%;
+    }
+
+    .header-nav {
+        position: absolute;
+        right: -160%;
+        color: white;
+        background: rgba(0, 0, 0, 0.8);
+        height: 100vh;
+        transition: all 0.5s;
+    }
+
+    .header-nav.active-burger {
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-nav-list {
+
+        flex-direction: column;
+        height: 60vh;
+        justify-content: space-around;
+        margin-top: 30%;
+    }
+
+    #pages.active-burger {
+        overflow: hidden;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        right: 4rem;
+    }
+
+    .content-info {
+        display: none;
+    }
+
+    .content-wrapper {
+        top: 30%;
+        left: calc(50% - 30rem);
+    }
+
+    .content-title {
+        max-width: 60rem;
+        margin-top: 3rem;
+        font-family: Museo Sans Cyrl, sans-serif;
+        font-weight: 900;
+        font-size: 3.8rem;
+        line-height: 6rem;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        z-index: 3;
+    }
+
+    .technology-group-item svg {
+        width: 7.5rem;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .technology {
+        height: 60rem;
+    }
+
+    .slick-slide {
+        height: 45rem;
+    }
+
+    .slider-description {
+        left: 30%;
+        margin: 10rem 0 0 0;
+    }
+
+    .slider-description-title {
+        width: 67rem;
+        font-size: 4rem;
+    }
+
+    .technology-slider img {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 720px) {
+
+    .content-wrapper {
+        left: calc(65% - 30rem);
+    }
+
+    .content-title {
+        max-width: 48rem;
+        font-size: 3.1rem;
+        letter-spacing: 0.01em;
+    }
+
+    .content-description {
+        max-width: 46rem;
+        font-size: 1.8rem;
+        letter-spacing: 0.01em;
+    }
+    .content-btn{
+        margin-bottom: 9rem;
+    }
+    .technology-title {
+        width: 35rem;
+    }
+
+    .technology-group-wrapper {
+        justify-content: space-around;
+    }
+    .technology-slider-item{
+        padding-bottom: 9rem;
+    }
+    .technology-group-item svg {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    .technology-group-item-title {
+        display: none;
+    }
+
+    .technology-group-item-description {
+        display: none;
+    }
+
+    .slider-description {
+        left: 0;
+        width: 42rem;
+    }
+
+    .slider-description-title {
+        width: 47rem;
+    }
+
+    .slider-description {
+        left: 5%;
+
+    }
+
+    .content-title {
+        font-size: 2.8rem;
+        margin: 0 2rem 0;
+    }
+
+    .content-subtitle {
+        margin-left: 2rem;
+    }
+
+    .content-description {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .content-presentation-btn {
+        margin-left: 2rem;
+    }
+}
